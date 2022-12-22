@@ -1,0 +1,56 @@
+
+
+
+
+
+.App{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-quiz{
+  max-width: 600px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #213547;
+  border-radius: 5px;
+  padding: 20px 25px;
+}
+
+.answers{
+  display: flex;
+  flex-direction: column;
+
+}
+.answers label{
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  padding: 15px;
+  position: relative;
+  cursor: pointer;
+}
+.answers input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  appearance: unset;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 100%;
+}
+.answers input:checked{
+  background-color: #e7e7e7;
+}
+
+.next{
+  border: 0;
+  color: brown;
+  border: 1px solid brown;
+  background-color: #FFF;
+  padding: 15px;
+}
